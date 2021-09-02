@@ -1,0 +1,24 @@
+{
+  "name": "mileage-server",
+  "version": "1.0.0",
+  "description": "rest, express, mysql, swagger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest",
+    "express",
+    "mysql",
+    "swagger"
+  ],
+  "author": "Amanda Roscoe",
+  "license": "MIT",
+	"dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+		"swagger-jsdoc": "^6.1.0",
+		"swagger-ui-express": "^4.1.6"
+  }
+}
